@@ -14,13 +14,12 @@ body{
 
 main{
     width: 80%;
-    height: 100vh;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    height: 100px;    
+    height: 20vh;    
 }
 
 .logo{
@@ -58,10 +57,10 @@ main{
 
 .section{
     display: flex;
+    height: 80vh;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin-top: 50px;
 }
 
 .hero{
@@ -80,9 +79,10 @@ main{
 }
 
 .button-receta{
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-    background-color: orange;
+    max-width: 70%;
+    background-color: white;
     border: none;
     color: white;
     box-shadow: 0 0 10px 1px rgb(241, 190, 95) ;
@@ -90,19 +90,73 @@ main{
 }
 
 .button-receta:hover{
-    padding: 12px;
+    padding: 16px;
 }
 
 .span{
     margin-top: 10px;
-    color: orange;
+    color: rgb(255, 165, 0);
 }
 
 .photo{
     width: 65%;
-    height: 40%;
     border-radius: 10px;
 }
+
+.ingredientes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 70vh;
+}
+
+.ingredientes img{
+    width: 65%;
+    border-radius: 10px;
+}
+
+.lista-ingredientes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+}
+
+.lista-ingredientes h3{
+    color: orange;
+}
+
+.lista-ingredientes ul li{
+    margin-top: 10px;
+}
+
+.receta{
+    color: white;
+}
+
+.preparacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.preparacion ol li{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.preparacion h2{
+    font-size: 30px;
+    color: orange;
+    margin: 0;
+}
+
+.footer{
+    margin: 50px;
+    background-color: red;
+}
+
+
 
 
 
