@@ -61,6 +61,7 @@ main{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    margin-bottom: 100px;
 }
 
 .hero{
@@ -109,6 +110,7 @@ main{
     align-items: center;
     gap: 40px;
     height: 70vh;
+    margin-bottom: 100px;
 }
 
 .ingredientes img{
@@ -152,8 +154,20 @@ main{
 }
 
 .footer{
-    margin: 50px;
-    background-color: red;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
 }
 
 
